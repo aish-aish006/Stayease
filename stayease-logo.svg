@@ -1,0 +1,41 @@
+<svg viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Light Mode Version -->
+  <g id="light-mode">
+    <!-- Home icon with smooth curve -->
+    <path d="M 40 60 L 60 40 L 80 60 L 80 85 C 80 88 78 90 75 90 L 45 90 C 42 90 40 88 40 85 Z" 
+          fill="#4ECDC4" stroke="#4ECDC4" stroke-width="2"/>
+    <!-- Smiling curve in home -->
+    <path d="M 50 70 Q 60 75 70 70" 
+          fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Dots for eyes -->
+    <circle cx="53" cy="63" r="2" fill="#ffffff"/>
+    <circle cx="67" cy="63" r="2" fill="#ffffff"/>
+    
+    <!-- StayEase Text -->
+    <text x="100" y="70" font-family="'Poppins', 'Arial Rounded MT Bold', sans-serif" 
+          font-size="42" font-weight="600" fill="#2C3E50">
+      Stay
+    </text>
+    <text x="190" y="70" font-family="'Poppins', 'Arial Rounded MT Bold', sans-serif" 
+          font-size="42" font-weight="600" fill="#4ECDC4">
+      Ease
+    </text>
+    
+    <!-- Tagline -->
+    <text x="100" y="90" font-family="'Poppins', sans-serif" 
+          font-size="12" fill="#7F8C8D">
+      Your comfort, simplified
+    </text>
+  </g>
+  
+  <!-- Icon Only Version (Hidden by default) -->
+  <g id="icon-only" transform="translate(0, 0)" opacity="0">
+    <rect width="50" height="50" rx="12" fill="#4ECDC4"/>
+    <path d="M 15 30 L 25 20 L 35 30 L 35 42 C 35 43 34 44 33 44 L 17 44 C 16 44 15 43 15 42 Z" 
+          fill="#ffffff"/>
+    <path d="M 20 35 Q 25 38 30 35" 
+          fill="none" stroke="#4ECDC4" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="21.5" cy="31" r="1" fill="#4ECDC4"/>
+    <circle cx="28.5" cy="31" r="1" fill="#4ECDC4"/>
+  </g>
+</svg>
