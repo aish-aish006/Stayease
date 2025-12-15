@@ -1,0 +1,206 @@
+
+/* src/components/Dashboard.css */
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+.sidebar {
+  width: 280px;
+  background: white;
+  box-shadow: 2px 0 10px rgba(0,0,0,0.05);
+  padding: 20px;
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.logo-sidebar h3 {
+  color: #2C3E50;
+  margin-bottom: 30px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar-nav button {
+  padding: 15px 20px;
+  background: transparent;
+  border: none;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: #7F8C8D;
+}
+
+.sidebar-nav button:hover {
+  background: #f0f0f0;
+}
+
+.sidebar-nav button.active {
+  background: #4ECDC4;
+  color: white;
+}
+
+.add-property-btn {
+  background: #4ECDC4 !important;
+  color: white !important;
+  margin: 10px 0;
+}
+
+.logout-btn {
+  margin-top: 20px;
+  background: #ff6b6b !important;
+  color: white !important;
+}
+
+.main-content {
+  margin-left: 280px;
+  flex: 1;
+  padding: 40px;
+}
+
+.content-section h2 {
+  color: #2C3E50;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.profile-card, .safety-card, .contact-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.profile-field {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.profile-field label {
+  font-weight: 600;
+  color: #7F8C8D;
+}
+
+.profile-field span {
+  color: #2C3E50;
+}
+
+.verified {
+  color: #4ECDC4 !important;
+  font-weight: 600 !important;
+}
+
+.search-filters {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.filter-group label {
+  font-weight: 600;
+  color: #2C3E50;
+}
+
+.filter-group input, .filter-group select {
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.safety-card h3 {
+  color: #4ECDC4;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.safety-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.safety-card li {
+  padding: 10px 0;
+  color: #2C3E50;
+  font-size: 16px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 0;
+  font-size: 18px;
+  color: #2C3E50;
+}
+
+.contact-item .icon {
+  font-size: 24px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: 15px;
+}
+
+.empty-state p {
+  font-size: 18px;
+  color: #7F8C8D;
+  margin-bottom: 20px;
+}
+
+.properties-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.property-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.property-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(78, 205, 196, 0.2);
+}
+
+.property-card h3 {
+  color: #2C3E50;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.property-card p {
+  color: #7F8C8D;
+  margin: 8px 0;
+  font-size: 15px;
+}

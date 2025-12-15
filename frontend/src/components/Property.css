@@ -1,0 +1,68 @@
+/* src/components/Property.css */
+.property-form-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea15 0%, #4ecdc415 100%);
+  padding: 40px 20px;
+}
+
+.property-form-box {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.property-form-box h2 {
+  text-align: center;
+  color: #2C3E50;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.property-form-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.property-form-box input,
+.property-form-box select {
+  padding: 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+.property-form-box input:focus,
+.property-form-box select:focus {
+  outline: none;
+  border-color: #4ECDC4;
+}
+
+.file-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.file-input label {
+  font-weight: 600;
+  color: #2C3E50;
+}
+
+.file-input input {
+  padding: 10px;
+}
+
+.current-images {
+  padding: 15px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  color: #7F8C8D;
+}
